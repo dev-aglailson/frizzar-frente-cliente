@@ -260,7 +260,7 @@ a {
 }
 .principal .section-story .div-story {
   background-color: #fff;
-  border-radius: 6px;
+  border-radius: 6px 6px 0 0;
   padding: 4%;
   box-shadow: 0 3px 24px #dee3e7;
 }
