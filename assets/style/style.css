@@ -260,7 +260,7 @@ a {
 }
 .principal .section-story .div-story {
   background-color: #fff;
-  border-radius: 6px 6px 0 0;
+  border-radius: 6px;
   padding: 4%;
   box-shadow: 0 3px 24px #dee3e7;
 }
@@ -359,6 +359,9 @@ a {
   color: #1F2B35;
   margin-bottom: 20px;
   font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .principal .section-sobre-contato-diferenciais .box-title .barra-title {
   height: 2px;
@@ -373,20 +376,22 @@ a {
 }
 .principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-sobre {
   background-color: #fff;
-  border-radius: 6px 6px 0 0;
-  padding: 4%;
+  border-radius: 6px;
+  padding: 20px;
   box-shadow: 0 3px 24px #dee3e7;
   margin-bottom: 50px;
 }
 .principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais {
   background-color: #fff;
-  border-radius: 6px 6px 0 0;
-  padding: 4%;
+  border-radius: 6px;
+  padding: 20px;
   box-shadow: 0 3px 24px #dee3e7;
+  margin-bottom: 30px;
 }
 .principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais .diferencial {
   display: flex;
@@ -399,6 +404,65 @@ a {
 }
 .principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais .diferencial .title-diferencial {
   align-self: center;
+  font-size: 0.9em;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 3px 24px #dee3e7;
+  margin-bottom: 50px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-title {
+  margin-bottom: 20px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-title .empresa-status {
+  font-size: 0.6em;
+  font-weight: lighter;
+  margin-left: 30px;
+  background-color: #a3cfbb;
+  color: #0a3622;
+  padding: 5px;
+  border-radius: 3px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento {
+  display: flex;
+  flex-direction: column;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .contato-numero {
+  display: flex;
+  padding: 10px 15px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .contato-numero .icon-numero {
+  width: 18px;
+  margin-right: 15px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .btb-toggle-dias {
+  background: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .btb-toggle-dias .icon-btn-funcionamento {
+  width: 15px;
+  transition: 0.3s;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .btb-toggle-dias .icon-btn-funcionamento-open {
+  transform: rotate(180deg);
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-dias {
+  max-height: 0;
+  height: 90px;
+  background-color: #333;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-dias .content {
+  padding: 15px;
 }
 
 @media screen and (min-width: 480px) {
@@ -466,6 +530,15 @@ a {
   }
   .principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais .diferencial {
     flex-basis: 33.333%;
+  }
+}
+@media screen and (min-width: 920px) {
+  .principal .section-sobre-contato-diferenciais .container {
+    display: flex;
+  }
+  .principal .section-sobre-contato-diferenciais .container .content-contato {
+    width: 60%;
+    margin-left: 30px;
   }
 }
 @media screen and (min-width: 1024px) {
