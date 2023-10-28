@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     const swiperTimelinePassos = new Swiper('.banner', {
-        loop:false,
+        loop:true,
         effect:'slide',
         autoplay: {
             delay: 300,
