@@ -347,6 +347,43 @@ a {
   text-align: center;
   color: #1E3050;
 }
+.principal .section-sobre-contato-diferenciais {
+  margin-top: 30px;
+}
+.principal .section-sobre-contato-diferenciais .box-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.principal .section-sobre-contato-diferenciais .box-title .title {
+  color: #1F2B35;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+.principal .section-sobre-contato-diferenciais .box-title .barra-title {
+  height: 2px;
+  width: 100%;
+  background-color: #ccc;
+}
+.principal .section-sobre-contato-diferenciais .box-title .barra-title span {
+  display: block;
+  height: 100%;
+  width: 90px;
+  background-color: #FA0150;
+}
+.principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-sobre {
+  background-color: #fff;
+  border-radius: 6px 6px 0 0;
+  padding: 4%;
+  box-shadow: 0 3px 24px #dee3e7;
+  margin-bottom: 50px;
+}
+.principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais {
+  background-color: #fff;
+  border-radius: 6px 6px 0 0;
+  padding: 4%;
+  box-shadow: 0 3px 24px #dee3e7;
+}
 
 @media screen and (min-width: 480px) {
   .container {

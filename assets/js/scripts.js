@@ -27,7 +27,7 @@ $(document).ready(function(){
 
     slideStory.addEventListener('click', function(e){
 
-        if(e.target.id == 'box-story-grande-slide' && slideStoryAberto){
+        if((e.target.id == 'box-story-grande-slide' ||  e.target.id == 'content-slide') && slideStoryAberto){
             toggleSlideStory()
         }
 
@@ -79,7 +79,7 @@ $(document).ready(function(){
             // when window width is >= 480px
             680: {
               slidesPerView: 6,
-              spaceBetween: 30
+              spaceBetween: 0
             },
         },
 
