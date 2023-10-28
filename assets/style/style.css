@@ -456,12 +456,18 @@ a {
 }
 .principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-dias {
   max-height: 0;
-  height: 90px;
-  background-color: #333;
   overflow: hidden;
   transition: 0.3s;
 }
 .principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-dias .content {
+  padding: 15px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-dias .content .lista-dias-funcionamento .dia {
+  color: #4e4d4d;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-como-chegar {
   padding: 15px;
 }
 
