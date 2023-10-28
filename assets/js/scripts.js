@@ -26,7 +26,10 @@ $(document).ready(function(){
             waitForTransition:true,
             enabled:false,
         },
-        speed:1000,
+        freeMode:{
+            momentum:true,
+        },
+        speed:300,
         breakpoints: {
             // when window width is >= 320px
             320: {
