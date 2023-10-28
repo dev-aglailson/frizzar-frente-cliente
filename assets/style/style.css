@@ -496,6 +496,82 @@ a {
 .principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes .rede .link .icon-rede {
   width: 20px;
 }
+.principal .section-avaliacoes .div-avaliacoes {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 3px 24px #dee3e7;
+  margin-bottom: 50px;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-title .title {
+  color: #1F2B35;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-title .barra-title {
+  height: 2px;
+  width: 40%;
+  background-color: #ccc;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao {
+  flex-basis: 100%;
+  background-color: #FFF;
+  box-shadow: 0 3px 24px #dee3e7;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao {
+  display: flex;
+  justify-content: space-between;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .div-img-nome-data {
+  display: flex;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .div-img-nome-data .img {
+  width: 50px;
+  height: 50px;
+  background-color: #2c3641;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2em;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .div-img-nome-data .nome-data {
+  margin-left: 15px;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .div-img-nome-data .nome-data .nome {
+  font-weight: bolder;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .div-img-nome-data .nome-data .data {
+  font-weight: lighter;
+  font-size: 0.9em;
+  color: #7e7e89;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .lista-avaliacao {
+  display: flex;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .lista-avaliacao .star {
+  width: 18px;
+  margin-right: 5px;
+}
+.principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .comentario-avaliacao {
+  margin-top: 20px;
+}
 
 @media screen and (min-width: 480px) {
   .container {
@@ -559,6 +635,38 @@ a {
   }
   .principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais .diferencial {
     flex-basis: 33.333%;
+  }
+  .principal .section-avaliacoes .div-avaliacoes {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 3px 24px #dee3e7;
+    margin-bottom: 50px;
+  }
+  .principal .section-avaliacoes .div-avaliacoes .box-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .principal .section-avaliacoes .div-avaliacoes .box-title .title {
+    color: #1F2B35;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .principal .section-avaliacoes .div-avaliacoes .box-title .barra-title {
+    height: 2px;
+    width: 40%;
+    background-color: #ccc;
+  }
+  .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao {
+    flex-basis: 48%;
   }
 }
 @media screen and (min-width: 920px) {
