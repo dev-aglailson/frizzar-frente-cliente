@@ -384,6 +384,22 @@ a {
   padding: 4%;
   box-shadow: 0 3px 24px #dee3e7;
 }
+.principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais {
+  display: flex;
+  flex-wrap: wrap;
+}
+.principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais .diferencial {
+  display: flex;
+  flex-basis: 48%;
+  margin-bottom: 10px;
+}
+.principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais .diferencial .icon-diferencial {
+  width: 18px;
+  margin-right: 5px;
+}
+.principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais .diferencial .title-diferencial {
+  align-self: center;
+}
 
 @media screen and (min-width: 480px) {
   .container {
@@ -447,6 +463,9 @@ a {
   }
   .principal .section-story .div-redes-sociais {
     display: none;
+  }
+  .principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais .content-diferenciais .lista-difereciais .diferencial {
+    flex-basis: 33.333%;
   }
 }
 @media screen and (min-width: 1024px) {
