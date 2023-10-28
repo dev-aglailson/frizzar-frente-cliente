@@ -1,5 +1,38 @@
 $(document).ready(function(){
 
+    var btnsStories = document.querySelectorAll('.btn-storie')
+    var slideStory  = document.querySelector('.box-story-grande-slide')
+    var slideStoryAberto = false
+
+    btnsStories.forEach(btn=>{
+        btn.addEventListener('click', function(){
+
+            toggleSlideStory()
+    
+        })
+    
+    })
+
+    function toggleSlideStory(){
+
+        if(!slideStoryAberto){
+            slideStory.classList.add('open-slide-story')
+            slideStoryAberto = true
+        }else{
+            slideStory.classList.remove('open-slide-story')
+            slideStoryAberto = false
+        }
+
+    }
+
+    slideStory.addEventListener('click', function(e){
+
+        if(e.target.id == 'box-story-grande-slide' && slideStoryAberto){
+            toggleSlideStory()
+        }
+
+    })
+    
     const swiperBanner = new Swiper('.banner', {
         loop:true,
         effect:'slide',
@@ -11,6 +44,13 @@ $(document).ready(function(){
             enabled:false,
         },
         speed:1000,
+
+        
+    });
+
+    const swiperSlideStory = new Swiper('.slide-story-grande', {
+        effect: 'cards',
+        grabCursor: true,
 
         
     });
