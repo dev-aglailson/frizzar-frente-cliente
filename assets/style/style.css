@@ -549,7 +549,7 @@ a {
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-size: 2em;
+  font-size: 1.4em;
 }
 .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .div-img-nome-data .nome-data {
   margin-left: 15px;
@@ -571,6 +571,31 @@ a {
 }
 .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .comentario-avaliacao {
   margin-top: 20px;
+}
+.principal .section-outras-unidades .div-outras-unidades {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 3px 24px #dee3e7;
+  margin-bottom: 50px;
+}
+.principal .section-outras-unidades .div-outras-unidades .box-title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.principal .section-outras-unidades .div-outras-unidades .box-title .title {
+  color: #1F2B35;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.principal .section-outras-unidades .div-outras-unidades .box-title .barra-title {
+  height: 2px;
+  width: 40%;
+  background-color: #ccc;
 }
 
 @media screen and (min-width: 480px) {
