@@ -470,6 +470,32 @@ a {
 .principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-como-chegar {
   padding: 15px;
 }
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais {
+  border-top: 1px solid #ccc;
+  padding-top: 5px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes {
+  display: flex;
+  justify-content: space-around;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes .rede:nth-child(1) {
+  border-right: 1px solid #CCC;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes .rede {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes .rede .link {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes .rede .link .icon-rede {
+  width: 20px;
+}
 
 @media screen and (min-width: 480px) {
   .container {
