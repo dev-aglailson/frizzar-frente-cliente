@@ -475,9 +475,6 @@ a {
   .principal .section-story {
     margin-top: 20px;
   }
-  .principal .section-story .div-story .lista-story .story {
-    margin-right: 45px;
-  }
 }
 @media screen and (min-width: 768px) {
   .container {

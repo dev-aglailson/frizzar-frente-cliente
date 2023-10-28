@@ -81,6 +81,7 @@ $(document).ready(function(){
         loop:false,
         effect:'slide',
         margin:0,
+        slidesPerView: 4,
         autoplay: {
             delay: 300,
             disableOnInteraction:false,
@@ -101,7 +102,7 @@ $(document).ready(function(){
             // when window width is >= 480px
             680: {
               slidesPerView: 6,
-              spaceBetween: 0
+              spaceBetween: 3
             },
         },
 
