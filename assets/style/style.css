@@ -182,22 +182,22 @@ a {
   font-size: 10px;
   color: #FFF;
 }
-.cabecalho .content-banner .box-infos-empresa .coll-02 .infos-endereco {
+.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco {
   display: none;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 10px;
+  margin-left: 30px;
 }
-.cabecalho .content-banner .box-infos-empresa .coll-02 .infos-endereco .div-infos-endereco {
+.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco {
   display: flex;
   margin-left: 5px;
   align-items: center;
 }
-.cabecalho .content-banner .box-infos-empresa .coll-02 .infos-endereco .div-infos-endereco img#icon-location {
+.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco img#icon-location {
   width: 12px;
   margin-right: 6px;
 }
-.cabecalho .content-banner .box-infos-empresa .coll-02 .infos-endereco .div-infos-endereco .endereco {
+.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco .endereco {
   color: #FFF;
   font-size: 10px;
   line-height: 3;
@@ -259,10 +259,8 @@ a {
   margin-top: 20px;
 }
 .principal .section-story .div-story {
-  background-color: #fff;
   border-radius: 6px 6px 0 0;
   padding: 4%;
-  box-shadow: 0 3px 24px #dee3e7;
 }
 .principal .section-story .div-story .lista-story {
   max-width: 550px;
@@ -379,7 +377,7 @@ a {
   border-radius: 6px;
   padding: 20px;
   box-shadow: 0 3px 24px #dee3e7;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .principal .section-sobre-contato-diferenciais .content-sobre-diferenciais .div-diferenciais {
   background-color: #fff;
@@ -594,8 +592,14 @@ a {
 }
 .principal .section-outras-unidades .div-outras-unidades .box-title .barra-title {
   height: 2px;
-  width: 40%;
+  width: 100%;
   background-color: #ccc;
+}
+.principal .section-outras-unidades .div-outras-unidades .box-title .barra-title span {
+  display: block;
+  height: 100%;
+  width: 90px;
+  background-color: #FA0150;
 }
 
 @media screen and (min-width: 480px) {
@@ -603,7 +607,7 @@ a {
     padding: 0 6%;
   }
   .cabecalho {
-    height: 34vh;
+    height: 30.5vh;
   }
   .principal .section-story {
     margin-top: 20px;
@@ -639,18 +643,28 @@ a {
   .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .quantidade-avaliacoes {
     font-size: 0.9em;
   }
-  .cabecalho .content-banner .box-infos-empresa .coll-02 .infos-endereco {
+  .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco {
     display: flex;
-    margin-bottom: 25px;
   }
-  .cabecalho .content-banner .box-infos-empresa .coll-02 .infos-endereco .div-infos-endereco img#icon-location {
-    width: 20px;
+  .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco img#icon-location {
+    width: 10px;
   }
-  .cabecalho .content-banner .box-infos-empresa .coll-02 .infos-endereco .div-infos-endereco .endereco {
-    font-size: 1em;
+  .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco .endereco {
+    font-size: 0.9em;
+  }
+  .principal .section-botoes .div-botoes .btn-agendamento {
+    padding: 10px;
+  }
+  .principal .section-botoes .div-botoes .btn-agendamento span {
+    font-size: 1.2em;
+  }
+  .principal .section-botoes .div-botoes .btn-compartilhar {
+    outline: 1px solid #FFF;
+    padding: 10px;
   }
   .principal .section-botoes .div-botoes .btn-compartilhar span.compartilhar {
     display: block;
+    font-size: 1.2em;
   }
   .principal .section-story .div-story {
     border-radius: 6px;
@@ -683,8 +697,14 @@ a {
   }
   .principal .section-avaliacoes .div-avaliacoes .box-title .barra-title {
     height: 2px;
-    width: 40%;
+    width: 100%;
     background-color: #ccc;
+  }
+  .principal .section-avaliacoes .div-avaliacoes .box-title .barra-title span {
+    display: block;
+    height: 100%;
+    width: 90px;
+    background-color: #FA0150;
   }
   .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes {
     display: flex;
@@ -708,7 +728,29 @@ a {
     padding: 0 14%;
   }
   .cabecalho {
-    height: 46vh;
+    height: 30.5vh;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .principal .section-botoes .div-botoes .btn-agendamento {
+    position: relative;
+    z-index: 9;
+    margin-top: -150px;
+    padding: 10px;
+  }
+  .principal .section-botoes .div-botoes .btn-agendamento span {
+    font-size: 1.2em;
+  }
+  .principal .section-botoes .div-botoes .btn-compartilhar {
+    position: relative;
+    z-index: 9;
+    margin-top: -150px;
+    outline: 1px solid #FFF;
+    padding: 10px;
+  }
+  .principal .section-botoes .div-botoes .btn-compartilhar span.compartilhar {
+    display: block;
+    font-size: 1.2em;
   }
 }
 
